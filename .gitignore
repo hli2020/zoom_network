@@ -1,3 +1,43 @@
+# user defined
+.idea/
+data/
+output/
+!output/extract_prop/merge_train.m
+#*/caffe_log/*
+
+code/external/caffe
+*.swp
+*.jpg*
+*.mat*
+*.out*
+*.caffemodel*
+*.mex*
+*.m~
+*.txt~
+*.prototxt~
+*.md~
+
+# caffe
+code/external/caffe
+*.caffemodel
+*.solverstate
+*.binaryproto
+*leveldb
+*lmdb
+
+# build, distribute, and bins (+ python proto bindings)
+*.testbin
+*.bin
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

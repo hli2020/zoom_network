@@ -1,0 +1,4 @@
+train_net: "./model/zoom/bn/baseline/deploy.prototxt"
+
+display: 20
+snapshot: 0

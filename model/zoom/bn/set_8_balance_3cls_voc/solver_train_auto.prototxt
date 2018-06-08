@@ -1,0 +1,16 @@
+train_net: "./model/zoom/bn/set_8_balance_3cls_voc/train.prototxt"
+
+display: 20
+average_loss: 100
+
+base_lr: 0.0001 
+lr_policy: "multistep"
+gamma: 0.5
+max_iter: 100000
+stepvalue: 50000
+stepvalue: 80000
+
+momentum: 0.9
+weight_decay: 0.0005
+
+snapshot: 0

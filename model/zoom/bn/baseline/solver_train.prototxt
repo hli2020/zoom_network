@@ -1,0 +1,20 @@
+train_net: "./model/zoom/bn/baseline/train.prototxt"
+
+display: 20
+average_loss: 100
+
+#clip_gradients: 10
+lr_policy: "multistep" 	# 'step' crushes
+#base_lr: 0.0001 		# 0-6w
+#base_lr: 0.00005 		# pick 6w
+base_lr: 0.000025 		# pick 5w from above
+# almost useless if trained manually
+gamma: 0.5
+stepvalue: 200000
+stepvalue: 300000
+max_iter: 400000
+
+momentum: 0.9
+weight_decay: 0.0005
+#debug_info: true
+snapshot: 0

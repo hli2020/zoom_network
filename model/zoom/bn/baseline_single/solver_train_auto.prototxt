@@ -1,0 +1,17 @@
+train_net: "./model/zoom/bn/baseline_single/train.prototxt"
+
+display: 20
+average_loss: 100
+
+#clip_gradients: 10
+lr_policy: "multistep" 	# 'step' crushes
+base_lr: 0.0001 		
+gamma: 0.5
+stepvalue: 50000
+stepvalue: 80000
+max_iter: 100000
+
+momentum: 0.9
+weight_decay: 0.0005
+#debug_info: true
+snapshot: 0

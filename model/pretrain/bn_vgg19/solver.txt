@@ -1,0 +1,20 @@
+net: "models/bn_inception/train_val.txt"
+test_iter: 125
+test_interval: 2000
+test_initialization: true
+display: 20
+average_loss: 20
+base_lr: 0.35
+lr_policy: "exp10"
+stepsize: 220000
+gamma: 0.1
+max_iter: 900000
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 10000
+snapshot_prefix: "/data1/imagenet/snapshot/bn_inception"
+solver_mode: GPU
+
+#device_id: [0,1,2,4,5,6,7,8,9,10,11,12,13,14]
+#iter_size: 4
+richness: 20

@@ -1,0 +1,4 @@
+train_net: "./model/rpn/bn/set_8_balance_3cls/deploy.prototxt"
+
+display: 20
+snapshot: 0
